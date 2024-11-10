@@ -30,6 +30,7 @@ public class AddTwoNumber {
             if (l2 != null) l2 = l2.next;
         }
         
+        
         // Return the result linked list starting from the next node of dummyHead
         return dummyHead.next;
     }
